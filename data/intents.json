@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "Wassup",
+        "Yo",
+        "Aloha",
+        "Bonjour"
+      ],
+      "responses": [
+        "Hello!",
+        "Hello there!",
+        "Hello! What can I do for you?",
+        "Hey there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Hasta la vista"],
+      "responses": [
+        "Goodbye."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Can i have a joke",
+        "I need a laugh",
+        "Crack me up",
+        "Make me laugh"
+      ],
+      "responses": [
+        "{jokes}"
+      ]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "Define",
+        "What is the definition of?",
+        "Definition of",
+        "What is the meaning of?",
+        "What does this mean?",
+        "Do you know what this means?",
+        "Do you know what this word means?"
+      ],
+      "responses": [
+        "{definition}"
+      ]
+    }
+  ]
+}
