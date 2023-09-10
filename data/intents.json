@@ -24,15 +24,31 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "Hasta la vista"],
+      "patterns": [
+        "Bye",
+        "See you later", 
+        "Goodbye", 
+        "Hasta la vista", 
+        "Go to sleep.", 
+        "Sleep"
+      ],
       "responses": [
         "Goodbye."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
     },
     {
       "tag": "jokes",
@@ -77,6 +93,22 @@
       ],
       "responses": [
         "{current_time}"
+      ]
+    },
+    {
+      "tag": "current_date",
+      "patterns": [
+        "What day is today",
+        "What day is it today",
+        "What's the day",
+        "What's today's date",
+        "What's the date",
+        "Date please",
+        "Date",
+        "What day of the year is it?"
+      ],
+      "responses": [
+        "{current_date}"
       ]
     }
   ]
