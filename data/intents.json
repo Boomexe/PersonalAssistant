@@ -63,6 +63,21 @@
       "responses": [
         "{definition}"
       ]
+    },
+    {
+      "tag": "current_time",
+      "patterns": [
+        "What time is it?",
+        "What time is it right now?",
+        "What's the time?",
+        "What's the time right now?",
+        "Time",
+        "Time right now",
+        "Current time"
+      ],
+      "responses": [
+        "{current_time}"
+      ]
     }
   ]
 }
